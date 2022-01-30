@@ -9,15 +9,15 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>After downloading the natural earth shapefile, the map was displayed in different projections in QGIS. First, the Indicatrix plugin icon was selected, and after hitting run, the point and line guidelines were projected over the world map. In the bottom right corner, the projection properties can be found, where you can change which projection your map is displayed in. Projections in this property use different coordinate reference systems, each that is designed to project either world or regional locations, and each that distorts and maintains different aspects. Because the earth is a round 3D object, every projection features some level of distortion, so choosing one depends on what needs to be maintained and what distortions you are willing to sacrifice. After selecting a coordinate reference system, you can hit OK and QGIS loads the map in that projection system. The map can then be downloaded as a .png file.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The WGS 84 map is a cylindrical projection that distorts area, shape, and size as you move away from the equator, which is the standard line.</h3>
     <a href="./Worldprojections /maps/4326.png">
     <img src="./Worldprojections /maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff Projection distorts shape, size, area, and direction. The purpose of this projection is to visualize the round shape of the earth and to minimize distortion of direction snd size.</h3>
     <a href="./Worldprojections /maps/54043.png">
     <img src="./Worldprojections /maps/54043.png" alt="Aitoff" width='500px'>
     </a>
