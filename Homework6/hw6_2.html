@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homework 6.2: Census data ratios and categories</h1>
+    <h2>Delaney Black</h2>
+    <h3>The following choropleths represent the unemployment rate in Georgia by county. The ratio used to determine this data was the number of unemployed people (per county) divided by the county's total workforce. Here, the "total workforce" refers to the number of working-age (16-65) people, while "unemployed" refers to the population of the workforce that does not currently hold a job.</h3>
+
+    <!-- a png image of your map will be embedded using the lines below  -->
+    <h3>Equal Count</h3>
+
+    <a href="HW6.2/Equal_count.png"> 
+        <img src="./HW6.2/Equal_count.png" alt="your map" width='500px'>
+        </a>
+    <p>Equal count helps clearly contrast the highest and lowest unemployment rates. However, it can be miseading because it assigns color based on the values of other counties, which means values that are very cloess may appear to be much different.</p>
+ <!-- a png image of your map will be embedded using the lines below  -->
+ <h3>Pretty Breaks</h3>
+ <a href="HW6.2/Pretty_Breaks.png"> 
+    <img src="./HW6.2/Pretty_Breaks.png" alt="your map" width='500px'>
+    </a>
+<p>Pretty breaks has a very clear legend. however, because the decimal values in this graph are rounded to the tenth place, this benefit is not very useful. In data with higher values, pretty breaks would be a strong classification style, but here it just reduces contrast in the map.</p>
+ <!-- a png image of your map will be embedded using the lines below  -->
+ <h3>Natural Breaks</h3>
+ <a href="HW6.2/Natural_Breaks.png"> 
+    <img src="./HW6.2/Natural_Breaks.png" alt="your map" width='500px'>
+    </a>
+
+    <!-- here you will link your data sources -->
+    <h2>Data used for this project</h2>
+    <a href="./HW6.2/unemployment_cleaned.csv">Link to cleaned CSV dataset</a>
+    <p></p>
+    <a href="./HW6.2/GA_counties.json">Link to geoJSON</a>
+<p>Natural breaks clearly shows the contrast in areas with high unemployment rates and low unemployment rates. While it can be misleading because the values are not evenly separated, it is the strongest classification system for this data.</p>
+</body>
+</html>
